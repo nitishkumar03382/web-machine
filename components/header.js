@@ -33,9 +33,9 @@ class Header extends HTMLElement{
       <header>
         <nav>
           <ul>
-            <li class = 'link'><a href="./ml/day1intro.html">Machine Learning</a></li>
-            <li class = 'link'><a href="Web Dev.html">Web Dev</a></li>
-            <li class = 'link' style="float:right"><a href="about.html">About</a></li>
+            <li class = 'link'><a href="ml-day1-intro.html">Machine Learning</a></li>
+            <li class = 'link'><a href="#">Web Dev</a></li>
+            <li class = 'link' style="float:right"><a href="#">About</a></li>
           </ul>
         </nav>
       </header>

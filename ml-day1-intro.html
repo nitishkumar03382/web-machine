@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../components/header.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>web-machine</title>
+    <link rel="shortcut icon" href="../images/ml-favicon.png" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation Bar Top -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top"  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+          <img src="./images/ml-favicon.png" alt="brand-icon" height="36" width="36">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Machine Learning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Web Development</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Main body -->
+<div class="container-fluid">
+<div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-3" style="background-color: rgb(241, 225, 225); height: 100%; padding: 10px;
+    position: fixed;
+    overflow-y: scroll;">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="./ml-day1-intro.html">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">AI vs ML vs DL</a>
+              </li>
+          </ul>
+    </div>
+<!-- Content Block -->
+    <div class="col-md-7 offset-md-3" style="height: 100%; padding: 10px;" id="content-block">
+        <div id="article" style="flex-grow: 2;">
+            <h1 style="margin: 0 auto; margin-bottom: 10px;">What is Machine Learning?</h1>
+            <!-- MACHINE LEARNING DEFINITION -->
+            <h3 style="margin: 0 auto;">Definition</h3>
+            <p>Machine Learning is science (and art) of programming computers so they can learn from data.</p>
+            <p><em>Here is slightly more general definition:</em><br/>
+                ML is the field of study that gives computers the ability to learn without being explicitly programmed.
+            </p>
+            <p> <em>And a more engineering-oriented one: </em><br>
+                A computer program is said to learn from experience <b>E </b>  with respect to some task <b>T </b> 
+                and some performance measure <b>P</b>, if its performance on <b>T </b>, measured by <b>P </b>, improves
+                with experience <b>E</b>.
+            </p>
+        <!--EXAMPLES OF MACHINE LEARNING-->
+            <h3 style="margin: 0 auto;">Examples:</h3>
+            <p>
+                <ul>
+                    <li>Spam Filter</li>
+                    <li>Youtube or Netflix video recommendation</li>
+                    <li>Voice Assistance like Alexa, Google Home, Cortana(Microsoft), etc</li>
+                    <li>Driverless car</li>
+                </ul>
+                <em>and many more...</em>
+            </p>
+        <!-- WHY USE MACHINE LEARNING-->
+            <h3>Why Use ML?</h3>
+            <p>
+            Consider how would you write a program for <em> spam filter </em> or <em>Youtube video recommendation</em>
+            using traditional programming technique. <br>
+            You might follow these steps:
+            </p>
+            <ol>
+                <li>By seeing emails you will find some pattern in those spam mails like 
+                    words <em> Huge</em> n times or <em>Discount </em>  m times or some fancy words 
+                    used frequently in spam mails.
+                </li>
+                <li>
+                    Then after finding pattern you will write logic if these patterns detected it will be a spam email.
+                </li>
+                <li>
+                    You will test your program and try to make it better until it gives good enough (or Satisfactory) result.
+                </li>
+            </ol>
+            <p>
+                Here in above problem if companies those were sending spam emails if they change the pattern of sending spam mail
+                then you will again have to write some more logics or do correction in previous logic to make result satisfactory.
+                Hence it is very hard to manage these types of problems using traditional programming methodologies. 
+                Here Machine Learning comes as saviour to these types of problems.
+            </p>
+            <img src="./images/traditionalProgApproach.png" alt="traditional programming" width="640" height="480"
+                style="margin: 0 auto; display: block"
+            >
+            <a href="ml-day2-aivmlvdl.html" title="AI vs ML vs DL" style="color: black;" id="next">Next</a>
+        </div>
+    </div>
+<!-- Extra vacant block -->
+    <div class="col-md-2" style="height: 100%;">
+        
+    </div>
+
+</div>
+</div>
+<!-- container end -->
+</body>
+</html>

@@ -1,41 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html, body {
-    height: 100%;
-  }
-  
-  body {
-    color: #333;
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-  }
+a:link {
+  text-decoration: none;
+  color: white;
+}
 
-  p{
-      margin: 0 auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      font-size: 22px;
-      width: 50%;
-      justify-content: center;
-      align-items: center;
-  }
-  li{
-      margin-bottom: 5px;
-      margin: 0 auto;
-      justify-content: center;
-      align-items: center;
-  }
-  main {
-    flex: 1 0 auto;
-  }
+a:visited {
+  color: white;
+  text-decoration: none;
+}
 
-  #article{
-      font-size: 22px;
-      margin: 0 auto;
-      background-color: rgb(239, 239, 250);
-  }
+a:hover {
+  color: white;
+  text-decoration: underline;
+  font-size: larger;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
